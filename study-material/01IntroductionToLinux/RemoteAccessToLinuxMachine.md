@@ -1,0 +1,135 @@
+# 🐧 Acesso Remoto ao Linux
+
+Neste guia, vamos aprender como acessar uma máquina Linux de forma remota a partir de sistemas **Windows** e **Linux**, seja no ambiente local (em uma VM) ou na nuvem (AWS EC2). Também veremos como **excluir uma instância** com segurança.
+
+---
+
+### 🔗 Acesso Remoto via Windows (com PuTTY)
+
+No Windows, uma das ferramentas mais utilizadas para acessar servidores Linux é o **PuTTY**, um cliente SSH leve e gratuito.
+
+### ▶️ Passo a passo:
+
+1. Baixe o PuTTY:  
+   [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
+2. Instale e abra o programa.
+
+3. No campo **Host Name (or IP address)**, insira o IP público da sua máquina na nuvem (ex: da AWS EC2).
+
+4. Em **Connection > SSH > Auth**, selecione o arquivo `.ppk` (sua chave de acesso convertida).
+
+5. Volte na tela inicial e clique em **"Open"**.
+
+6. Uma janela de terminal será aberta. Digite o usuário da instância (ex: `ubuntu`) e pressione Enter.
+
+💡 Se sua chave estiver no formato `.pem`, use o **PuTTYgen** (vem junto com o PuTTY) para convertê-la para `.ppk`.
+
+---
+
+### 🧑‍💻 Acesso Remoto via Linux (Terminal SSH)
+
+O Linux já vem com o cliente SSH instalado por padrão.
+
+### ▶️ Comando:
+
+```bash
+
+ssh -i caminho/da/sua-chave.pem ubuntu@ip-da-instancia
+
+```
+
+### 📌 Exemplo:
+
+```bash
+
+ssh -i ~/Downloads/minha-chave.pem ubuntu@54.123.45.67
+
+```
+
+* `-i`: indica a chave privada de acesso
+* `ubuntu`: usuário padrão da instância (depende da distro)
+* `54.123.45.67`: IP público da instância
+
+---
+
+### 🌐 Acessando uma Máquina Virtual em Nuvem (PuTTY)
+
+1. Certifique-se de que sua instância EC2 esteja **ativa** e com o **Security Group** liberando a porta 22 (SSH).
+
+2. Obtenha o IP público da instância na AWS.
+
+3. Use o **PuTTY** conforme descrito acima.
+
+⚠️ **Dica de segurança**:
+
+* Nunca compartilhe sua chave privada
+* Desative instâncias não utilizadas
+* Use conexões SSH sempre com autenticação por chave
+
+---
+
+## 🔐 Acessando Máquina Virtual via SSH (Linha de Comando)
+
+### Requisitos:
+
+* Ter a chave `.pem` salva no computador
+* Ter permissões corretas no arquivo:
+
+```bash
+
+chmod 400 minha-chave.pem
+
+```
+
+### Comando para acessar:
+
+```bash
+
+ssh -i minha-chave.pem ubuntu@<IP-da-instancia>
+
+```
+
+💡 **Usuários comuns por distribuição**:
+
+| Distribuição | Usuário padrão |
+| ------------ | -------------- |
+| Ubuntu       | `ubuntu`       |
+| Amazon Linux | `ec2-user`     |
+| CentOS       | `centos`       |
+
+---
+
+## ❌ Excluindo uma Instância na AWS (EC2)
+
+Se você não precisa mais da sua máquina na nuvem, excluí-la ajuda a evitar custos.
+
+### Passo a passo:
+
+1. Acesse o **AWS Console**: [https://console.aws.amazon.com/ec2](https://console.aws.amazon.com/ec2)
+2. Vá em **Instâncias > Executando**.
+3. Selecione a instância desejada.
+4. Clique em **Ações > Instância de estado > Encerrar instância**.
+5. Confirme a exclusão.
+
+⚠️ Atenção: A instância **não poderá ser recuperada** após ser encerrada. Os dados do disco serão perdidos (a menos que estejam em EBS separado com política de retenção).
+
+---
+
+#### ✅ Conclusão
+
+Agora você já sabe como acessar sua máquina Linux remotamente, tanto por SSH via terminal quanto com ferramentas como o PuTTY. Aprendeu também como excluir uma instância com segurança na AWS.
+
+Estes conhecimentos são base para administrar servidores Linux, e também para uso em automação de testes, DevOps e infraestrutura em nuvem.
+
+---
+
+### 🔗 Links de Estudo Recomendados
+
+* [Download do PuTTY](https://www.putty.org/)
+* [Como usar SSH na AWS - Docs](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
+* [Conversão de PEM para PPK (PuTTYgen)](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/putty.html)
+
+---
+
+##### ✍️ Seção criada por: Fabio Zanneti 🎯 Projeto: Formação Linux Fundamentals
