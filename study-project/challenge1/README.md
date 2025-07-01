@@ -45,11 +45,18 @@ O script deve:
 
 ---
 
-## 📚 Formação
+### 📚 Formação
 
 Este projeto faz parte da trilha:
 
 🎓 **[Formação Linux Fundamentals - DIO](https://web.dio.me/track/formacao-linux-fundamentals)**
+
+---
+
+### 🤝 Créditos
+
+* Desafio proposto por [@denilsonbonatti](https://github.com/denilsonbonatti)
+* Script desenvolvido como parte do curso **Formação Linux Fundamentals** da [DIO](https://dio.me)
 
 ---
 
