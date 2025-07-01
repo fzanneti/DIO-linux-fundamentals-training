@@ -11,7 +11,7 @@ cd /tmp
 wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
 
 echo "Descompactando arquivo baixado..."
-unzip main.unzip
+unzip main.zip
 
 echo "Abrindo a local..."
 cd linux-site-dio-main
