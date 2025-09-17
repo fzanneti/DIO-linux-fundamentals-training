@@ -58,7 +58,7 @@ Veja o README do projeto aqui ➜ [🔘]()
 
 ### Créditos
 
-Curso oferecido por [DIO](https://www.dio.me/)
+Curso oferecido por [DIO](https://www.dio.me/)        
 Instrutor: [Denilson Bonatti](https://github.com/denilsonbonatti)
 
 ---
