@@ -1,4 +1,6 @@
-# 🐧 Provisionamento de Usuários, Grupos e Permissões no Linux
+# Linux Fundamentals – DIO
+
+# Provisionamento de Usuários, Grupos e Permissões no Linux
 
 Este repositório contém um script Bash desenvolvido como parte do desafio da **Formação Linux Fundamentals** da [DIO](https://www.dio.me/).
 
@@ -6,7 +8,7 @@ O objetivo é automatizar o processo de criação de diretórios, grupos, usuár
 
 ---
 
-### 📄 Descrição do Desafio
+### Descrição do Desafio
 
 O script deve:
 
@@ -20,7 +22,7 @@ O script deve:
 
 ---
 
-### 👥 Grupos e Usuários
+### Grupos e Usuários
 
 | Diretório | Grupo     | Usuários                      |
 |----------|-----------|-------------------------------|
@@ -31,33 +33,35 @@ O script deve:
 
 ---
 
-### 💻 Como Executar o Script
+### Como Executar o Script
 
-> ⚠️ Este script deve ser executado com permissões de **superusuário (root)**, pois envolve a criação de usuários, grupos e alteração de permissões no sistema.
-
----
-
-### 🛠️ Tecnologias Utilizadas
-
-* Shell Script (Bash)
-* Comandos Linux (useradd, groupadd, mkdir, chmod, chown)
-* Criptografia de senha com `openssl passwd`
+> Este script deve ser executado com permissões de **superusuário (root)**, pois envolve a criação de usuários, grupos e alteração de permissões no sistema.
 
 ---
 
-### 📚 Formação
+### Tecnologias Utilizadas
+
+- Shell Script (Bash)
+- Comandos Linux (useradd, groupadd, mkdir, chmod, chown)
+- Criptografia de senha com `openssl passwd`
+
+---
+
+### Formação
 
 Este projeto faz parte da trilha:
 
-🎓 **[Formação Linux Fundamentals - DIO](https://web.dio.me/track/formacao-linux-fundamentals)**
+🔗[Formação Linux Fundamentals - DIO](https://web.dio.me/track/formacao-linux-fundamentals)
 
 ---
 
 ### 🤝 Créditos
 
-* Desafio proposto por [@denilsonbonatti](https://github.com/denilsonbonatti)
-* Script desenvolvido como parte do curso **Formação Linux Fundamentals** da [DIO](https://dio.me)
+- Desafio proposto por [@denilsonbonatti](https://github.com/denilsonbonatti)
+- Script desenvolvido como parte do curso **Formação Linux Fundamentals** da [DIO](https://dio.me)
 
 ---
 
 ##### ✍️ Seção criada por: Fabio Zanneti 🎯 Projeto: Formação Linux Fundamentals
+[![GitHub](https://img.shields.io/badge/GitHub-fzanneti-181717?style=flat&logo=github)](https://github.com/fzanneti)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-fzanneti-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/fzanneti)
