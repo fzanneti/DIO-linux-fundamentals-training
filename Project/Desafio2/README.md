@@ -130,10 +130,10 @@ sudo systemctl restart apache2
 
 ---
 
-### 📚 Links de Estudo
+### Links de Estudo
 
-🔗[Apache2 no Ubuntu – DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04-pt)
-🔗[Comando unzip – Ubuntu Manpages](https://manpages.ubuntu.com/manpages/focal/en/man1/unzip.1.html)
+🔗[Apache2 no Ubuntu – DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04-pt)      
+🔗[Comando unzip – Ubuntu Manpages](https://manpages.ubuntu.com/manpages/focal/en/man1/unzip.1.html)    
 
 ---
 
