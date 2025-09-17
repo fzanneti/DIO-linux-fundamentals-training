@@ -1,4 +1,6 @@
-# 🛠️ Script de Provisionamento de Servidor Apache2 no Linux
+# Linux Fundamentals – DIO
+
+## Script de Provisionamento de Servidor Apache2 no Linux
 
 Este repositório contém um **script Bash** desenvolvido para automatizar a configuração inicial de um **servidor web Apache2**, conforme proposto no curso **Linux Fundamentals – DIO**.
 
@@ -6,19 +8,19 @@ O script realiza a atualização do sistema, instala pacotes essenciais e public
 
 ---
 
-### 📋 Desafio Proposto
+### Desafio Proposto
 
 Automatizar os seguintes passos em um ambiente Linux:
 
-- ✅ Atualizar os pacotes do sistema
-- ✅ Instalar o servidor **Apache2**
-- ✅ Instalar o utilitário **unzip**
-- ✅ Baixar a aplicação web hospedada em um repositório GitHub
-- ✅ Descompactar e publicar os arquivos da aplicação no diretório padrão do Apache
+- Atualizar os pacotes do sistema
+- Instalar o servidor **Apache2**
+- Instalar o utilitário **unzip**
+- Baixar a aplicação web hospedada em um repositório GitHub
+- Descompactar e publicar os arquivos da aplicação no diretório padrão do Apache
 
 ---
 
-### 📁 Estrutura do Script
+### Estrutura do Script
 
 ```bash
 
@@ -43,13 +45,13 @@ cd linux-site-dio-main
 echo "Copiando arquivos para a pasta padrão do Apache..."
 cp -R * /var/www/html/
 
-````
+```
 
 ---
 
-## 🚀 Como Utilizar
+### Como Utilizar
 
-### 1. Clone ou baixe este repositório:
+1. Clone ou baixe este repositório:
 
 ```bash
 
@@ -58,7 +60,7 @@ cd seu-repositorio
 
 ```
 
-### 2. Torne o script executável:
+2. Torne o script executável:
 
 ```bash
 
@@ -66,7 +68,7 @@ chmod +x provisioning_an_apache_web_server.sh
 
 ```
 
-### 3. Execute o script com permissões de administrador:
+3. Execute o script com permissões de administrador:
 
 ```bash
 
@@ -76,7 +78,7 @@ sudo ./provisioning_an_apache_web_server.sh
 
 ---
 
-### 🌐 Acesso à Aplicação
+### Acesso à Aplicação
 
 Após a execução do script, abra seu navegador e acesse:
 
@@ -98,17 +100,17 @@ Você verá a aplicação web padrão da DIO publicada via Apache2.
 
 ---
 
-### 🔧 Requisitos
+### Requisitos
 
-* Distribuição Linux baseada em **Debian/Ubuntu**
-* Permissão de superusuário (root ou sudo)
-* Conexão com a internet ativa
+- Distribuição Linux baseada em **Debian/Ubuntu**
+- Permissão de superusuário (root ou sudo)
+- Conexão com a internet ativa
 
 ---
 
-### 🧠 Observações
+### Observações
 
-* Certifique-se de que o Apache2 esteja rodando:
+**Certifique-se de que o Apache2 esteja rodando:**
 
 ```bash
 
@@ -124,32 +126,33 @@ sudo systemctl restart apache2
 
 ```
 
-* O diretório padrão de publicação do Apache é `/var/www/html/`
+- O diretório padrão de publicação do Apache é `/var/www/html/`
 
 ---
 
 ### 📚 Links de Estudo
 
-* [Apache2 no Ubuntu – DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04-pt)
-* [Comando unzip – Ubuntu Manpages](https://manpages.ubuntu.com/manpages/focal/en/man1/unzip.1.html)
-* [DIO – Curso Linux Fundamentals](https://www.dio.me/)
+🔗[Apache2 no Ubuntu – DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04-pt)
+🔗[Comando unzip – Ubuntu Manpages](https://manpages.ubuntu.com/manpages/focal/en/man1/unzip.1.html)
 
 ---
 
-### 🤝 Créditos
+### Créditos
 
-* Desafio proposto por [@denilsonbonatti](https://github.com/denilsonbonatti)
-* Script desenvolvido como parte do curso **Formação Linux Fundamentals** da [DIO](https://dio.me)
+Curso oferecido por [DIO](https://www.dio.me/)        
+Instrutor: [Denilson Bonatti](https://github.com/denilsonbonatti)
 
 ---
 
-### 🧪 Sugestões de melhorias (extra)
+### Sugestões de melhorias (extra)
 
-* Validar se o Apache já está instalado
-* Adicionar tratamento de erros (ex: `if`, `else`, `||`)
-* Criar logs de execução
-* Adaptar para outras distribuições (ex: CentOS, Fedora)
+- Validar se o Apache já está instalado
+- Adicionar tratamento de erros (ex: `if`, `else`, `||`)
+- Criar logs de execução
+- Adaptar para outras distribuições (ex: CentOS, Fedora)
 
 ---
 
 ##### ✍️ Seção criada por: Fabio Zanneti 🎯 Projeto: Formação Linux Fundamentals
+[![GitHub](https://img.shields.io/badge/GitHub-fzanneti-181717?style=flat&logo=github)](https://github.com/fzanneti)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-fzanneti-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/fzanneti)

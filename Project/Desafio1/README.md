@@ -1,6 +1,6 @@
 # Linux Fundamentals – DIO
 
-# Provisionamento de Usuários, Grupos e Permissões no Linux
+## Provisionamento de Usuários, Grupos e Permissões no Linux
 
 Este repositório contém um script Bash desenvolvido como parte do desafio da **Formação Linux Fundamentals** da [DIO](https://www.dio.me/).
 
@@ -57,8 +57,8 @@ Este projeto faz parte da trilha:
 
 ### 🤝 Créditos
 
-- Desafio proposto por [@denilsonbonatti](https://github.com/denilsonbonatti)
-- Script desenvolvido como parte do curso **Formação Linux Fundamentals** da [DIO](https://dio.me)
+Curso oferecido por [DIO](https://www.dio.me/)        
+Instrutor: [Denilson Bonatti](https://github.com/denilsonbonatti)
 
 ---
 
