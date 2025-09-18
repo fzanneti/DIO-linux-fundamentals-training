@@ -247,6 +247,8 @@ Estas ações são essenciais tanto no dia a dia do usuário comum quanto na adm
 
 ---
 
+### Certificado
+
 <img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/11-copiando-arquivos-e-manipulando-processos.jpg" alt="Certificado" width="600px">
 
 ---
