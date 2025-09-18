@@ -186,7 +186,7 @@ Cada método tem seus prós e contras, mas todos são excelentes para quem está
 
 ### Certificado
 
-<img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/1-introducao-ao-sistema-operacional-Linux.jpg" alt="Certificado" width="600px">
+<img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/2-instalando-o-Linux.jpg" alt="Certificado" width="600px">
 
 ---
 
