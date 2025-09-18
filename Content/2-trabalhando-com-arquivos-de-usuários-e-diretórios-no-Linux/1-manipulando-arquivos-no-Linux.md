@@ -323,6 +323,6 @@ Esses são os **primeiros passos fundamentais** para dominar o Linux no dia a di
 
 ---
 
-##### ✍️ Seção criada por: *Fabio Zanneti* 🎯 Projeto: **Formação Linux Fundamentals**
+##### ✍️ Seção criada por: *Fabio Zanneti* 🎯 Curso: **Formação Linux Fundamentals**
 [![GitHub](https://img.shields.io/badge/GitHub-fzanneti-181717?style=flat&logo=github)](https://github.com/fzanneti)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-fzanneti-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/fzanneti)
