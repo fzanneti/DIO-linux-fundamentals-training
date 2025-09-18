@@ -285,6 +285,8 @@ Essas habilidades são fundamentais para a administração de servidores Linux, 
 
 <img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/6-gerenciando-usuarios-no-Linux.jpg" alt="Certificado" width="600px">
 
+<img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/8-materiais-complementares-Linux-trabalhando-com-usuarios-arquivos-e-diretorios.jpg" alt="Certificado" width="600px">
+
 ---
 
 ##### ✍️ Seção criada por: *Fabio Zanneti* 🎯 Curso: **Formação Linux Fundamentals**
