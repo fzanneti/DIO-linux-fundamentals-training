@@ -1,5 +1,11 @@
 # Linux Fundamentals – DIO
 
+![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/DIO-linux-fundamentals-training)
+![GitHub forks](https://img.shields.io/github/forks/fzanneti/DIO-linux-fundamentals-training?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/DIO-linux-fundamentals-training?style=social)
+![Plataforma](https://img.shields.io/badge/Powered%20by-DIO.io-red?logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTYuNzEgMy4yNWMtMi44OCAxLjQxLTUuMDcgNC4yMy01LjA3IDcuNzYgMCAzLjU4IDIuMjggNi43IDUuMzMgOC4xNSAxLjgzLS42MiAyLjQtMi4yNiAyLjQtMy44MSAwLS4yMy0uMDItLjQ1LS4wNS0uNjZBLjQ0LjQ0IDAgMDExMC4xIDExYy4yNC0uNzUuMTEtMS41My0uMy0yLjIyQzguOTIgNy45NiA3LjMzIDcuNSA1Ljc0IDcuNjZhNS41NSA1LjU1IDAgM)
+![Autor](https://img.shields.io/badge/Autor-fzanneti-blue?style=flat-square&logo=github)
+
 Repositório com todo o conteúdo estudado e praticado durante a formação **Linux Fundamentals**, oferecida pela 🔗[Digital Innovation One (DIO)](https://www.dio.me/).
 
 Este material foi organizado em formato **modular e didático**, com arquivos `.md` explicativos, exemplos de comandos, scripts, aplicações práticas e links úteis para aprofundamento.
@@ -16,11 +22,11 @@ Capacitar o aluno a utilizar o sistema operacional Linux no dia a dia, tanto em 
 
 | Módulo | Título | Conteúdo |
 |--------|--------|----------|
-| ✅ 01 | **Introdução ao Linux** | História, conceito, instalação em VM, WSL, AWS e acesso remoto |
-| ✅ 02 | **Trabalhando com Usuários, Arquivos e Diretórios** | Manipulação de arquivos, permissões, usuários, grupos e scripts |
-| ✅ 03 | **Gerenciamento de Pacotes e Discos** | Apt, yum, particionamento, montagem de discos e processos |
-| ✅ 04 | **Serviços Linux** | Servidor de arquivos (SAMBA), Apache2, MySQL |
-| ✅ 05 | **Linux Desktop para Desenvolvedores** | Ambientes gráficos, instalação de softwares, configuração Desktop |
+| 01 | **Introdução ao Linux** | História, conceito, instalação em VM, WSL, AWS e acesso remoto |
+| 02 | **Trabalhando com Usuários, Arquivos e Diretórios** | Manipulação de arquivos, permissões, usuários, grupos e scripts |
+| 03 | **Gerenciamento de Pacotes e Discos** | Apt, yum, particionamento, montagem de discos e processos |
+| 04 | **Serviços Linux** | Servidor de arquivos (SAMBA), Apache2, MySQL |
+| 05 | **Linux Desktop para Desenvolvedores** | Ambientes gráficos, instalação de softwares, configuração Desktop |
 
 ---
 

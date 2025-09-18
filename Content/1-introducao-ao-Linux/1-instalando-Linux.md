@@ -1,10 +1,18 @@
-# 🐧 Instalando o Linux
+# Linux Fundamentals – DIO
+
+## 1.1 - Instalando o Linux
+
+![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/DIO-linux-fundamentals-training)
+![GitHub forks](https://img.shields.io/github/forks/fzanneti/DIO-linux-fundamentals-training?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/DIO-linux-fundamentals-training?style=social)
+![Plataforma](https://img.shields.io/badge/Powered%20by-DIO.io-red?logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTYuNzEgMy4yNWMtMi44OCAxLjQxLTUuMDcgNC4yMy01LjA3IDcuNzYgMCAzLjU4IDIuMjggNi43IDUuMzMgOC4xNSAxLjgzLS42MiAyLjQtMi4yNiAyLjQtMy44MSAwLS4yMy0uMDItLjQ1LS4wNS0uNjZBLjQ0LjQ0IDAgMDExMC4xIDExYy4yNC0uNzUuMTEtMS41My0uMy0yLjIyQzguOTIgNy45NiA3LjMzIDcuNSA1Ljc0IDcuNjZhNS41NSA1LjU1IDAgM)
+![Autor](https://img.shields.io/badge/Autor-fzanneti-blue?style=flat-square&logo=github)
 
 Neste documento, vamos abordar as formas mais comuns de **instalar e executar o Linux** para fins de aprendizado e testes. Inclui instalação via máquina virtual local, uso da nuvem (AWS), e a ferramenta WSL para ambientes Windows.
 
 ---
 
-### 📦 Distribuições Linux Utilizadas no Curso
+### Distribuições Linux Utilizadas no Curso
 
 Durante a formação, será usada principalmente a distribuição:
 
@@ -19,35 +27,37 @@ Outras distribuições Linux populares:
 - Kali Linux
 - Linux Mint
 
-📚 [Lista de distribuições Linux - DistroWatch](https://distrowatch.com/)
+🔗[Lista de distribuições Linux - DistroWatch](https://distrowatch.com/)
 
 ---
 
-### 💿 Realizando o Download do VirtualBox
+### Realizando o Download do VirtualBox
 
 O **Oracle VirtualBox** é um software gratuito que permite criar **máquinas virtuais** no seu computador.
 
-### ▶️ Download:
+---
 
-- Acesse: [https://www.virtualbox.org/](https://www.virtualbox.org/)
+### Download:
+
+- Acesse: 🔗[Virtual Box](https://www.virtualbox.org/)
 - Escolha sua plataforma (Windows, macOS ou Linux)
 - Faça o download do instalador
 
 ---
 
-### ⚙️ Instalando o VirtualBox
+### Instalando o VirtualBox
 
 1. Execute o instalador do VirtualBox.
 2. Siga os passos da instalação padrão (Next > Next > Install).
 3. Finalize a instalação e abra o programa.
 
-💡 **Dica**: Certifique-se de habilitar a **virtualização** (VT-x ou AMD-V) no setup da BIOS/UEFI do seu computador, caso necessário.
+> **Dica**: Certifique-se de habilitar a **virtualização** (VT-x ou AMD-V) no setup da BIOS/UEFI do seu computador, caso necessário.
 
 ---
 
-## 🖥️ Criando Máquinas Virtuais (MV) no VirtualBox
+### Criando Máquinas Virtuais (MV) no VirtualBox
 
-### Passo a passo básico:
+**Passo a passo básico:**
 
 1. Abra o VirtualBox e clique em **"Nova"**.
 2. Dê um nome para sua VM, ex: `UbuntuEstudo`.
@@ -58,12 +68,15 @@ O **Oracle VirtualBox** é um software gratuito que permite criar **máquinas vi
 7. Finalize e clique em "Iniciar".
 8. Ao iniciar, aponte para o **arquivo .iso do Ubuntu** que você baixou (veja abaixo).
 
-📥 Baixe o Ubuntu:  
-[https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)
+---
+
+**Baixe o Ubuntu:**  
+
+🔗[https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)
 
 ---
 
-### 💿 Instalando o Ubuntu na Máquina Virtual
+### Instalando o Ubuntu na Máquina Virtual
 
 1. Ao iniciar a VM, selecione o ISO do Ubuntu.
 2. Escolha a opção **"Try or Install Ubuntu"**.
@@ -76,27 +89,28 @@ O **Oracle VirtualBox** é um software gratuito que permite criar **máquinas vi
 
 ---
 
-### 🔌 Desligando a Máquina Virtual
+### Desligando a Máquina Virtual
 
 Você pode:
+
 - **Desligar normalmente** (pelo Ubuntu: `Desligar > Confirmar`)
 - **Salvar o estado da máquina** no VirtualBox (mantém tudo como estava):
    - Clique no **X** da janela da VM > selecione **"Salvar o estado da máquina"**
 
 ---
 
-### ☁️ Criando Conta na AWS (Amazon Web Services)
+### Criando Conta na AWS (Amazon Web Services)
 
 A Amazon oferece uma camada gratuita por 12 meses. Para usar:
 
-1. Acesse: [https://aws.amazon.com/pt/free](https://aws.amazon.com/pt/free)
+1. Acesse: 🔗[https://aws.amazon.com/pt/free](https://aws.amazon.com/pt/free)
 2. Crie uma conta com e-mail válido e cartão de crédito
 3. Complete o processo de verificação
 4. Acesse o **AWS Management Console**
 
 ---
 
-### 🚀 AWS - Criando uma Máquina Virtual na Nuvem (EC2)
+### AWS - Criando uma Máquina Virtual na Nuvem (EC2)
 
 1. No console da AWS, vá para **EC2 > Instâncias**.
 2. Clique em **"Launch Instance"**.
@@ -113,11 +127,11 @@ A Amazon oferece uma camada gratuita por 12 meses. Para usar:
 
 ```
 
-📚 [Guia EC2 - AWS Docs](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
+🔗[Guia EC2 - AWS Docs](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
 
 ---
 
-### 🧱 Utilizando o WSL (Windows Subsystem for Linux)
+### Utilizando o WSL (Windows Subsystem for Linux)
 
 O **WSL** permite rodar distribuições Linux diretamente no Windows, sem precisar de VM.
 
@@ -137,7 +151,7 @@ wsl --install
 5. Crie um usuário e senha para o Ubuntu.
 6. Pronto! Você pode usar o terminal Linux no Windows.
 
-💡 Comando para abrir o Ubuntu:
+> Comando para abrir o Ubuntu:
 
 ```bash
 
@@ -145,29 +159,31 @@ wsl
 
 ```
 
-📚 [Documentação WSL (Microsoft)](https://learn.microsoft.com/pt-br/windows/wsl/)
+🔗[Documentação WSL (Microsoft)](https://learn.microsoft.com/pt-br/windows/wsl/)
 
 ---
 
-#### ✅ Conclusão
+### Conclusão
 
 Você agora conhece diversas formas de instalar e utilizar o Linux:
 
-* Localmente via VirtualBox
-* Na nuvem via AWS
-* No Windows com WSL
+- Localmente via VirtualBox
+- Na nuvem via AWS
+- No Windows com WSL
 
 Cada método tem seus prós e contras, mas todos são excelentes para quem está começando e deseja praticar com segurança e flexibilidade.
 
 ---
 
-### 🔗 Links de Estudo Recomendados
+### Links de Estudo Recomendados
 
-* [VirtualBox Downloads](https://www.virtualbox.org/wiki/Downloads)
-* [Download Ubuntu ISO](https://ubuntu.com/download/desktop)
-* [Guia EC2 - AWS](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
-* [Guia WSL - Microsoft](https://learn.microsoft.com/pt-br/windows/wsl/)
+🔗[VirtualBox Downloads](https://www.virtualbox.org/wiki/Downloads)    
+🔗[Download Ubuntu ISO](https://ubuntu.com/download/desktop)     
+🔗[Guia EC2 - AWS](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/EC2_GetStarted.html)     
+🔗[Guia WSL - Microsoft](https://learn.microsoft.com/pt-br/windows/wsl/)
 
 ---
 
-##### ✍️ Seção criada por: Fabio Zanneti 🎯 Projeto: Formação Linux Fundamentals
+##### ✍️ Seção criada por: *Fabio Zanneti* 🎯 Projeto: **Formação Linux Fundamentals**
+[![GitHub](https://img.shields.io/badge/GitHub-fzanneti-181717?style=flat&logo=github)](https://github.com/fzanneti)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-fzanneti-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/fzanneti)
