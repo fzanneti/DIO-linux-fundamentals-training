@@ -1,26 +1,36 @@
-# 📁 Manipulando Arquivos no Linux
+# Linux Fundamentals – DIO
+
+## 2.1 - Manipulando Arquivos no Linux
+
+![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/DIO-linux-fundamentals-training)
+![GitHub forks](https://img.shields.io/github/forks/fzanneti/DIO-linux-fundamentals-training?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/fzanneti/DIO-linux-fundamentals-training?style=social)
+![Plataforma](https://img.shields.io/badge/Powered%20by-DIO.io-red?logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTYuNzEgMy4yNWMtMi44OCAxLjQxLTUuMDcgNC4yMy01LjA3IDcuNzYgMCAzLjU4IDIuMjggNi43IDUuMzMgOC4xNSAxLjgzLS42MiAyLjQtMi4yNiAyLjQtMy44MSAwLS4yMy0uMDItLjQ1LS4wNS0uNjZBLjQ0LjQ0IDAgMDExMC4xIDExYy4yNC0uNzUuMTEtMS41My0uMy0yLjIyQzguOTIgNy45NiA3LjMzIDcuNSA1Ljc0IDcuNjZhNS41NSA1LjU1IDAgM)
+![Autor](https://img.shields.io/badge/Autor-fzanneti-blue?style=flat-square&logo=github)
 
 Neste módulo, você aprenderá a realizar tarefas básicas e essenciais relacionadas à manipulação de arquivos no Linux por meio do terminal. Isso inclui navegar pelo sistema, criar diretórios, localizar arquivos, usar permissões de administrador e manipular arquivos de texto.
 
 ---
 
-### 🖥️ Terminal Linux - Apresentação
+### Terminal Linux - Apresentação
 
 O **terminal** é uma interface baseada em texto onde você digita comandos diretamente para o sistema operacional.
 
 ### Por que usar o terminal?
+
 - Permite controle total do sistema
 - Automatização de tarefas
 - Operações mais rápidas e precisas
 
-💡 Para abrir o terminal:
+**Para abrir o terminal:**
+
 - Ubuntu: `Ctrl + Alt + T`
 
 ---
 
-## 📂 Navegando pelo Sistema de Arquivos
+### Navegando pelo Sistema de Arquivos
 
-### Comandos básicos de navegação:
+**Comandos básicos de navegação:**
 
 ```bash
 
@@ -32,7 +42,7 @@ cd ~      # Vai para o diretório pessoal
 
 ```
 
-### 📌 Exemplo prático:
+**Exemplo prático:**
 
 ```bash
 
@@ -45,9 +55,9 @@ pwd
 
 ---
 
-## 🔍 Filtrando a Exibição de Arquivos
+### Filtrando a Exibição de Arquivos
 
-### Opções úteis com `ls`:
+**Opções úteis com `ls`:**
 
 ```bash
 
@@ -60,9 +70,9 @@ ls -R      # Lista recursivamente pastas e subpastas
 
 ---
 
-## 🔎 Localizando Arquivos
+### Localizando Arquivos
 
-### Comando `find`:
+**Comando `find`:**
 
 ```bash
 
@@ -78,7 +88,7 @@ find /home/fabio -name "*.log"
 
 ```
 
-### Comando `locate`:
+**Comando `locate`:**
 
 Mais rápido, pois usa um banco de dados (requer atualização com `updatedb`).
 
@@ -90,7 +100,7 @@ locate arquivo.txt
 
 ---
 
-### 📁 Criando Diretórios
+### Criando Diretórios
 
 ```bash
 
@@ -110,7 +120,7 @@ mkdir -p estudos/linux/comandos
 
 ---
 
-### 🗑️ Excluindo Arquivos e Diretórios
+### Excluindo Arquivos e Diretórios
 
 ```bash
 
@@ -120,13 +130,13 @@ rm -rf pasta/                # Remove sem pedir confirmação (cuidado!)
 
 ```
 
-⚠️ **Atenção:** `rm -rf` pode apagar todo o sistema. Use com cautela.
+> **Atenção:** `rm -rf` pode apagar todo o sistema. Use com cautela.
 
 ---
 
-## 📚 Obtendo Ajuda
+### Obtendo Ajuda
 
-### Comando `man`:
+**Comando `man`:**
 
 Exibe o manual do comando.
 
@@ -137,7 +147,7 @@ man cd
 
 ```
 
-### Outros comandos de ajuda:
+**Outros comandos de ajuda:**
 
 ```bash
 
@@ -155,11 +165,11 @@ mkdir --help
 
 ---
 
-## 🔐 Executando Tarefas Administrativas como Root
+### Executando Tarefas Administrativas como Root
 
 Algumas ações exigem permissões de administrador (root).
 
-### Comando `sudo`:
+**Comando `sudo`:**
 
 ```bash
 
@@ -177,9 +187,9 @@ sudo apt update
 
 ---
 
-## 👤 Logando como Usuário Root
+### Logando como Usuário Root
 
-### Acessar como root:
+**Acessar como root:**
 
 ```bash
 
@@ -187,7 +197,7 @@ sudo su
 
 ```
 
-### Alternar para o usuário root:
+**Alternar para o usuário root:**
 
 ```bash
 
@@ -195,11 +205,11 @@ su -
 
 ```
 
-🔐 **Senha do root** pode ser solicitada. Em algumas distros, o root está desabilitado por padrão.
+> **Senha do root** pode ser solicitada. Em algumas distros, o root está desabilitado por padrão.
 
 ---
 
-### 🌐 Liberando Acesso Remoto do Usuário Root (em VMs/Cloud)
+### Liberando Acesso Remoto do Usuário Root (em VMs/Cloud)
 
 1. Edite o arquivo de configuração do SSH:
 
@@ -233,13 +243,13 @@ sudo systemctl restart ssh
 
 ```
 
-⚠️ **Cuidado:** Liberar acesso root remoto é uma prática arriscada. Use com segurança e apenas quando necessário.
+> **Cuidado:** Liberar acesso root remoto é uma prática arriscada. Use com segurança e apenas quando necessário.
 
 ---
 
-## 📝 Trabalhando com Arquivos de Texto
+### Trabalhando com Arquivos de Texto
 
-### Visualizar conteúdo:
+**Visualizar conteúdo:**
 
 ```bash
 
@@ -262,9 +272,9 @@ vi arquivo.txt                # Editor mais avançado
 
 ---
 
-## 📜 Histórico de Comandos
+### Histórico de Comandos
 
-### Comando `history`:
+**Comando `history`:**
 
 ```bash
 
@@ -273,7 +283,7 @@ history         # Lista os últimos comandos
 
 ```
 
-### Exemplo:
+**Exemplo:**
 
 ```bash
 
@@ -281,11 +291,11 @@ history         # Lista os últimos comandos
 
 ```
 
-💡 Use as setas ↑ e ↓ para navegar pelo histórico de comandos.
+> Use as setas ↑ e ↓ para navegar pelo histórico de comandos.
 
 ---
 
-#### ✅ Conclusão
+### Conclusão
 
 Você agora está familiarizado com:
 
@@ -299,12 +309,20 @@ Esses são os **primeiros passos fundamentais** para dominar o Linux no dia a di
 
 ---
 
-### 🔗 Links de Estudo Recomendados
+### Links de Estudo Recomendados
 
-* [Comandos básicos do Linux - Linux Handbook (EN)](https://linuxhandbook.com/linux-commands/)
-* [Guia de terminal no Ubuntu](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
-* [Referência do comando find](https://linux.die.net/man/1/find)
+🔗[Comandos básicos do Linux - Linux Handbook (EN)](https://linuxhandbook.com/linux-commands/)      
+🔗[Guia de terminal no Ubuntu](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)     
+🔗[Referência do comando find](https://linux.die.net/man/1/find)    
 
 ---
 
-##### ✍️ Seção criada por: Fabio Zanneti 🎯 Projeto: Formação Linux Fundamentals
+### Certificado
+
+<img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/5-manipulando-arquivos-no-Linux.jpg" alt="Certificado" width="600px">
+
+---
+
+##### ✍️ Seção criada por: *Fabio Zanneti* 🎯 Projeto: **Formação Linux Fundamentals**
+[![GitHub](https://img.shields.io/badge/GitHub-fzanneti-181717?style=flat&logo=github)](https://github.com/fzanneti)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-fzanneti-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/fzanneti)
