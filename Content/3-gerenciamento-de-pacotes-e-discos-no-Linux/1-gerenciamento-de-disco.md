@@ -234,7 +234,7 @@ Essas ações são especialmente úteis em servidores, ambientes de nuvem e sist
 
 ### Certificado
 
-<img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/9-gerenciamento-de-pacotes-Linux.jpg" alt="Certificado" width="600px">
+<img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/10-gerenciamento-de-discos-Linux.jpg" alt="Certificado" width="600px">
 
 ---
 
