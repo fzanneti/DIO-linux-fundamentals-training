@@ -143,6 +143,8 @@ Estes conhecimentos são base para administrar servidores Linux, e também para 
 
 <img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/3-acesso-remoto-a-maquina-Linux.jpg" alt="Certificado" width="600px">
 
+<img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/4-materiais-complementares-introducao-ao-Linux.jpg" alt="Certificado" width="600px">
+
 ---
 
 ##### ✍️ Seção criada por: Fabio Zanneti 🎯 Projeto: Formação Linux Fundamentals
