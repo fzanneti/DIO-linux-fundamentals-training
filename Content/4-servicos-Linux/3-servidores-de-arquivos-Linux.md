@@ -188,6 +188,8 @@ Isso é essencial para redes locais, laboratórios, empresas e ambientes multius
 
 <img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/13-servidores-de-arquivos-com-Linux.jpg" alt="Certificado" width="600px">
 
+<img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/17-materiais-complementares-servicos-Linux.jpg" alt="Certificado" width="600px">
+
 ---
 
 ##### ✍️ Seção criada por: *Fabio Zanneti* 🎯 Curso: **Formação Linux Fundamentals**
