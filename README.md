@@ -84,6 +84,12 @@ Instrutor: [Denilson Bonatti](https://github.com/denilsonbonatti)
 
 ---
 
+### Certificado
+
+<img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/21-formacao-Linux-fundamentals.jpg" alt="Certificado" width="600px">
+
+---
+
 ##### ✍️ Seção criada por: Fabio Zanneti 🎯 Curso: Formação Linux Fundamentals
 [![GitHub](https://img.shields.io/badge/GitHub-fzanneti-181717?style=flat&logo=github)](https://github.com/fzanneti)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-fzanneti-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/fzanneti)
