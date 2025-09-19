@@ -1,6 +1,6 @@
 # Linux Fundamentals – DIO
 
-## 3.1 - Gerenciamento de Discos no Linux
+## 3.2 - Gerenciamento de Discos no Linux
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/DIO-linux-fundamentals-training)
 ![GitHub forks](https://img.shields.io/github/forks/fzanneti/DIO-linux-fundamentals-training?style=social)

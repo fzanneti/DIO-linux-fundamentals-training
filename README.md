@@ -28,19 +28,34 @@ Capacitar o aluno a utilizar o sistema operacional Linux no dia a dia, tanto em 
 | 04 | **Serviços Linux** | Servidor de arquivos (SAMBA), Apache2, MySQL |
 | 05 | **Linux Desktop para Desenvolvedores** | Ambientes gráficos, instalação de softwares, configuração Desktop |
 
----
-
-### Projeto Final
-
-Diretório `projetos/` contém um script de **provisionamento automatizado de um servidor Apache2**, que faz:
-
-* Atualização do sistema
-* Instalação de Apache e Unzip
-* Download e publicação automática de uma aplicação web
-
-> O script foi desenvolvido como parte prática da formação DIO.
-
-Veja o README do projeto aqui ➜ [🔘]()
+- [DIO-linux-fundamentals-training](https://github.com/fzanneti/DIO-linux-fundamentals-training)
+    - [Assets](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets)
+        - [docs](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/docs)
+            - [pdf](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/docs/pdf)
+                - [certificados](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/docs/pdf/certificados)
+        - [images](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images)
+            - [certificados](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados)
+    - [Content](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content)
+        - [1 - Introdução ao Linux](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/1-introducao-ao-Linux)
+            - [1.1 - Introdução ao sistema operacional Linux](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/1-introducao-ao-Linux/1-introducao-ao-sistema-operacional-Linux.md)
+            - [1.2 - Instalando o Linux](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/1-introducao-ao-Linux/2-instalando-Linux.md)
+            - [1.3 - Máquina Linux de acesso remoto](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/1-introducao-ao-Linux/3-maquina-Linux-de-acesso-remoto.md)
+        - [2 - Trabalhando com arquivos de usuários e diretorios no Linux](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/2-trabalhando-com-arquivos-de-usuarios-e-diretorios-no-Linux)
+            - [2.1 - Manipulando arquivos no Linux](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/2-trabalhando-com-arquivos-de-usuarios-e-diretorios-no-Linux/1-manipulando-arquivos-no-Linux.md)
+            - [2.2 - Trabalhando com usuários](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/2-trabalhando-com-arquivos-de-usuarios-e-diretorios-no-Linux/2-trabalhando-com-usuarios.md)
+        - [3 - Gerenciamento de pacotes e discos no Linux](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/3-gerenciamento-de-pacotes-e-discos-no-Linux)
+            - [3.1 - Gerenciamento de pacotes Linux](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/3-gerenciamento-de-pacotes-e-discos-no-Linux/1-gerenciamento-de-pacotes-Linux.md)
+            - [3.2 - Gerenciamento de disco](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/3-gerenciamento-de-pacotes-e-discos-no-Linux/2-gerenciamento-de-disco.md)
+            - [3.3 - Manipulação de arquivos](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/3-gerenciamento-de-pacotes-e-discos-no-Linux/3-manipulacao-de-arquivos.md)
+        - [4 - Serviços Linux](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/4-servicos-Linux)
+            - [4.1 - Servidores de arquivos Linux](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/4-servicos-Linux/1-servidores-de-arquivos-Linux.md)
+            - [4.2 - Criando um servidor web com Linux](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/4-servicos-Linux/2-criando-um-servidor-web-com-Linux.md)
+            - [4.3 - Servidor de banco de dados com Linux](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/4-servicos-Linux/3-servidor-de-banco-de-dados-com-Linux.md)
+        - [5 - Linux Desktop - Ferramentas importantes para desenvolvedores](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/5-Linux-desktop-ferramentas-importantes-para-desenvolvedores)
+            - [1 - Conhecendo o ambiente de trabalho Linux](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/5-Linux-desktop-ferramentas-importantes-para-desenvolvedores/1-conhecendo-o-ambiente-de-trabalho-Linux.md)
+    - [Project](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Project)
+        - [Desafio 1](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Project/Desafio1/README.md)
+        - [Desafio 2](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Project/Desafio2/README.md)
 
 ---
 

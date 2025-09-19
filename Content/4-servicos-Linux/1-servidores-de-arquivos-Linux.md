@@ -1,6 +1,6 @@
 # Linux Fundamentals – DIO
 
-# 4.3 - Serviços Linux - Servidor de Arquivos com SAMBA
+# 4.1 - Serviços Linux - Servidor de Arquivos com SAMBA
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/DIO-linux-fundamentals-training)
 ![GitHub forks](https://img.shields.io/github/forks/fzanneti/DIO-linux-fundamentals-training?style=social)

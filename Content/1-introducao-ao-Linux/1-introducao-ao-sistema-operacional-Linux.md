@@ -1,6 +1,6 @@
 # Linux Fundamentals – DIO
 
-## 1.2 - Formação Linux Fundamentals - Introdução ao Linux
+## 1.1 - Formação Linux Fundamentals - Introdução ao Linux
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/DIO-linux-fundamentals-training)
 ![GitHub forks](https://img.shields.io/github/forks/fzanneti/DIO-linux-fundamentals-training?style=social)

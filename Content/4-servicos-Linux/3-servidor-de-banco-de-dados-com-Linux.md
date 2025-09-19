@@ -1,6 +1,6 @@
 # Linux Fundamentals – DIO
 
-## 4.2 - Servidor de Banco de Dados com Linux (MySQL)
+## 4.3 - Servidor de Banco de Dados com Linux (MySQL)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/DIO-linux-fundamentals-training)
 ![GitHub forks](https://img.shields.io/github/forks/fzanneti/DIO-linux-fundamentals-training?style=social)

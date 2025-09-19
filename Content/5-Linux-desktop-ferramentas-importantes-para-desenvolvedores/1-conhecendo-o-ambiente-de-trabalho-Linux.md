@@ -155,6 +155,10 @@ Com isso, você está pronto para configurar sua estação de trabalho de desenv
 
 <img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/18-conhecendo-o-Linux-desktop.jpg" alt="Certificado" width="600px">
 
+<img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/19-materiais-complementares-Linux-desktop-ferramentas-importantes-para-o-desenvolvedor.jpg" alt="Certificado" width="600px">
+
+<img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/20-avalie-esta-formacao-Linux-fundamentals.jpg" alt="Certificado" width="600px">
+
 ---
 
 ##### ✍️ Seção criada por: *Fabio Zanneti* 🎯 Curso: **Formação Linux Fundamentals**

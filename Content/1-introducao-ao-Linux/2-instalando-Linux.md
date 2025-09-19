@@ -1,6 +1,6 @@
 # Linux Fundamentals – DIO
 
-## 1.1 - Instalando o Linux
+## 1.2 - Instalando o Linux
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/DIO-linux-fundamentals-training)
 ![GitHub forks](https://img.shields.io/github/forks/fzanneti/DIO-linux-fundamentals-training?style=social)

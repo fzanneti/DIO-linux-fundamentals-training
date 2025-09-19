@@ -1,6 +1,6 @@
 # Linux Fundamentals – DIO
 
-## 4.1 - Criando um Servidor Web com Linux (Apache2)
+## 4.2 - Criando um Servidor Web com Linux (Apache2)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/fzanneti/DIO-linux-fundamentals-training)
 ![GitHub forks](https://img.shields.io/github/forks/fzanneti/DIO-linux-fundamentals-training?style=social)
