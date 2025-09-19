@@ -32,7 +32,7 @@ Capacitar o aluno a utilizar o sistema operacional Linux no dia a dia, tanto em 
 ---🗃️[Assets](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets)    
 -------📝[docs](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/docs)    
 -----------📄[pdf](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/docs/pdf)    
------------📜[certificados](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/docs/pdf/certificados)    
+---------------📜[certificados](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/docs/pdf/certificados)    
 -------🖼️[images](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images)    
 -----------📜[certificados](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados)    
 ---🗂️[Content](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content)    
