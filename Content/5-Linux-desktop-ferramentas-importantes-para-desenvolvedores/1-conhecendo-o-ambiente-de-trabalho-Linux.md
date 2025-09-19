@@ -6,11 +6,11 @@ Neste material, vamos entender o conceito do Linux Desktop, explorar ambientes g
 
 ---
 
-### 🧭 Linux Desktop – Definição e Instalação
+### Linux Desktop – Definição e Instalação
 
 O **Linux Desktop** é uma versão do sistema operacional Linux voltada para o uso em estações de trabalho, com **ambiente gráfico (GUI)**, aplicativos de produtividade e ferramentas para navegação, edição de arquivos, desenvolvimento e muito mais.
 
-### 🔍 Diferença entre Linux Desktop e Linux Server:
+### Diferença entre Linux Desktop e Linux Server:
 
 | Linux Desktop         | Linux Server           |
 |----------------------|------------------------|
@@ -18,7 +18,7 @@ O **Linux Desktop** é uma versão do sistema operacional Linux voltada para o u
 | Voltado para uso pessoal ou estações de trabalho | Voltado para performance, serviços e estabilidade |
 | Mais fácil para iniciantes | Mais leve e eficiente em servidores |
 
-### 🧱 Instalação
+### Instalação
 
 As distribuições Linux mais comuns para Desktop são:
 
@@ -37,7 +37,7 @@ Para instalar, basta:
 
 ---
 
-### 🧑‍💻 Visão Geral do Ambiente Desktop
+### Visão Geral do Ambiente Desktop
 
 Um ambiente gráfico Linux é composto por:
 
@@ -57,11 +57,11 @@ Um ambiente gráfico Linux é composto por:
 
 ---
 
-### 📦 Instalação de Software em Ambiente Desktop
+### Instalação de Software em Ambiente Desktop
 
 Existem duas formas principais de instalar software no Linux Desktop:
 
-### 1. Via terminal (linha de comando)
+1. Via terminal (linha de comando)
 
 ```bash
 
@@ -69,7 +69,7 @@ sudo apt install nome-do-programa
 
 ```
 
-### 📌 Exemplos:
+**Exemplos:**
 
 ```bash
 
@@ -78,7 +78,7 @@ sudo apt install vlc
 
 ```
 
-### 2. Via loja de aplicativos (GUI)
+2. Via loja de aplicativos (GUI)
 
 As principais distribuições já vêm com uma **Software Store**:
 
@@ -89,11 +89,11 @@ Basta buscar o nome do app e clicar em “Instalar”.
 
 ---
 
-### 🎨 Instalação de Ambientes Gráficos (GUI)
+### Instalação de Ambientes Gráficos (GUI)
 
 Se você estiver usando uma distribuição em modo **server (sem GUI)**, pode instalar um ambiente gráfico com:
 
-### Instalar o GNOME (padrão do Ubuntu Desktop):
+**Instalar o GNOME (padrão do Ubuntu Desktop):**
 
 ```bash
 
@@ -101,7 +101,7 @@ sudo apt install ubuntu-desktop -y
 
 ```
 
-### Instalar o XFCE (mais leve):
+**Instalar o XFCE (mais leve):**
 
 ```bash
 
@@ -109,7 +109,7 @@ sudo apt install xubuntu-desktop -y
 
 ```
 
-Após instalado, reinicie o sistema:
+**Após instalado, reinicie o sistema:**
 
 ```bash
 
@@ -117,19 +117,19 @@ sudo reboot
 
 ```
 
-> 💡 Após a instalação, o sistema irá inicializar na tela gráfica de login.
+> Após a instalação, o sistema irá inicializar na tela gráfica de login.
 
 ---
 
-### 🧠 Considerações Finais
+### Considerações Finais
 
-* O Linux Desktop é uma excelente opção para desenvolvedores e usuários que desejam uma alternativa leve, segura e estável ao Windows.
-* É possível adaptar o ambiente conforme seu gosto, mudando temas, atalhos, ferramentas e até o ambiente gráfico inteiro.
-* Muitas distribuições são **gratuitas**, com comunidades ativas e suporte abundante.
+- O Linux Desktop é uma excelente opção para desenvolvedores e usuários que desejam uma alternativa leve, segura e estável ao Windows.
+- É possível adaptar o ambiente conforme seu gosto, mudando temas, atalhos, ferramentas e até o ambiente gráfico inteiro.
+- Muitas distribuições são **gratuitas**, com comunidades ativas e suporte abundante.
 
 ---
 
-#### ✅ Conclusão
+### Conclusão
 
 Agora você conhece:
 
@@ -142,13 +142,21 @@ Com isso, você está pronto para configurar sua estação de trabalho de desenv
 
 ---
 
-### 🔗 Links de Estudo Recomendados
+### Links de Estudo Recomendados
 
-* [Download Ubuntu Desktop](https://ubuntu.com/download/desktop)
-* [Comparativo entre ambientes gráficos Linux](https://bfnetworks.com.br/melhores-ambientes-graficos-para-linux/)
-* [Como criar pen drive bootável com Rufus](https://www.tecmundo.com.br/software/241832-windows-11-criar-pendrive-via-rufus-driblar-requisitos.htm)
-* [Comandos básicos para iniciantes no Linux](https://www.hostinger.com/br/tutoriais/comandos-linux)
+🔗[Download Ubuntu Desktop](https://ubuntu.com/download/desktop)       
+🔗[Comparativo entre ambientes gráficos Linux](https://bfnetworks.com.br/melhores-ambientes-graficos-para-linux/)       
+🔗[Como criar pen drive bootável com Rufus](https://www.tecmundo.com.br/software/241832-windows-11-criar-pendrive-via-rufus-driblar-requisitos.htm)       
+🔗[Comandos básicos para iniciantes no Linux](https://www.hostinger.com/br/tutoriais/comandos-linux)     
 
 ---
 
-##### ✍️ Seção criada por: Fabio Zanneti 🎯 Projeto: Formação Linux Fundamentals
+### Certificado
+
+<img src="https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/images/certificados/18-conhecendo-o-Linux-desktop.jpg" alt="Certificado" width="600px">
+
+---
+
+##### ✍️ Seção criada por: *Fabio Zanneti* 🎯 Curso: **Formação Linux Fundamentals**
+[![GitHub](https://img.shields.io/badge/GitHub-fzanneti-181717?style=flat&logo=github)](https://github.com/fzanneti)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-fzanneti-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/fzanneti)
