@@ -1,4 +1,6 @@
-# 🖥️ Linux Desktop – Definição e Instalação
+# Linux Fundamentals – DIO
+
+## 5.1 - Linux Desktop – Definição e Instalação
 
 Neste material, vamos entender o conceito do Linux Desktop, explorar ambientes gráficos populares, instalar softwares comuns e configurar um ambiente de trabalho completo para desenvolvedores.
 
