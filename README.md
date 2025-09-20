@@ -28,6 +28,8 @@ Capacitar o aluno a utilizar o sistema operacional Linux no dia a dia, tanto em 
 | 04 | **Serviços Linux** | Servidor de arquivos (SAMBA), Apache2, MySQL |
 | 05 | **Linux Desktop para Desenvolvedores** | Ambientes gráficos, instalação de softwares, configuração Desktop |
 
+---
+
 🌐[DIO-linux-fundamentals-training](https://github.com/fzanneti/DIO-linux-fundamentals-training)    
 ---🗃️[Assets](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets)    
 -------📝[docs](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/docs)    
