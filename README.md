@@ -29,9 +29,9 @@ Capacitar o aluno a utilizar o sistema operacional Linux no dia a dia, tanto em 
 | 05 | [**Linux Desktop para Desenvolvedores**](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/5-Linux-desktop-ferramentas-importantes-para-desenvolvedores) | Ambientes gráficos, instalação de softwares, configuração Desktop |
 
 ---
----
 
 🌐[DIO-linux-fundamentals-training](https://github.com/fzanneti/DIO-linux-fundamentals-training)    
+
 ---🗃️[Assets](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets)    
 -------📝[docs](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/docs)    
 -----------📄[pdf](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Assets/docs/pdf)    
