@@ -21,7 +21,7 @@ Capacitar o aluno a utilizar o sistema operacional Linux no dia a dia, tanto em 
 ### Estrutura do Curso
 
 | Módulo | Título | Conteúdo |
-|--------|--------|----------|
+|:---:|:---:|:---:|
 | 01 | [**Introdução ao Linux**](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/1-introducao-ao-Linux) | História, conceito, instalação em VM, WSL, AWS e acesso remoto |
 | 02 | [**Trabalhando com Usuários, Arquivos e Diretórios**](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/2-trabalhando-com-arquivos-de-usuarios-e-diretorios-no-Linux) | Manipulação de arquivos, permissões, usuários, grupos e scripts |
 | 03 | [**Gerenciamento de Pacotes e Discos**](https://github.com/fzanneti/DIO-linux-fundamentals-training/blob/main/Content/3-gerenciamento-de-pacotes-e-discos-no-Linux) | Apt, yum, particionamento, montagem de discos e processos |
